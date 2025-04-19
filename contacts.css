@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+}
+
+.homebar{
+    background-color: black;
+    position: fixed;
+    bottom: 10%;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 290px;   
+  
+  }
+
+.homebar a{
+    float: left; 
+    margin: 0 5px;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.homebar a:hover{
+    background-color:grey ;
+    color: white;
+    border-radius: 20px;
+ 
+
+}
+
+  .contact_container{
+    background-image:url('images/ANKOLEJ.jpg') ;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    background-position: center;
+    
+}
+
+
+.locationage{
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.locationage h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: antiquewhite;
+}
+
+.locationage p{
+    font-size: 14px;
+    margin: 5px 0;
+    color: aliceblue;
+}
+
+
+.locationage a{
+    color: #ada893;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.locationage a:hover{
+    text-decoration: underline;
+
+}
+
+.contactpage{
+    display: flex;
+    gap: 2%;
+    padding: 2%;
+}
+
+.logo{
+        width: 100px;
+        margin-left: 40%;
+        margin-top: 1%;
+      
+        
+}
+    
+
+@media (max-width: 768px){
+    .homebar{
+        width: 100%;
+        margin-left: 0;
+        bottom: 0;
+    }
+
+    .homebar a{
+        float: none;
+        display: block;
+        text-align: center;
+    }}
+
+@media (max-width: 480px){
+    .homebar a{
+        padding: 10px 12px;
+    }
+}
+
+@media(max-width: 768px){
+    .container{
+      width: 100%;
+      padding: 10px;
+    }
+
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px){
+    .button{
+         font-size: 14px;
+         padding: 8px 10px;
+    }
+
+
+}
