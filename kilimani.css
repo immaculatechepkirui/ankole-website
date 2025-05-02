@@ -6,7 +6,7 @@ body{
     background-color: black;
     position: fixed;
     bottom: 10%;
-    width: 43%;
+    width: 23vw;
     border-radius: 20px;
     margin-left: 290px;
   
@@ -182,24 +182,198 @@ body{
 
 
 
-@media (max-width: 768px){
+@media only screen and (max-width:800px) and (min-width:0px){
+    body{
+        margin: 0%;
+    }
+    
     .homebar{
-        width: 100%;
-        margin-left: 0;
-        bottom: 0;
+        background-color: black;
+        position: fixed;
+        bottom: 10%;
+        width: 93vw;
+        border-radius: 20px;
+        margin-left: 20px;
+      
+        
+      
+      }
+      
+      .homebar a{
+          float: left; 
+          margin: 0 5px;
+          display: block;
+          color:white;
+          text-align: center;
+          padding: 14px 7px;
+          text-decoration: none;
+      }
+      
+      .homebar a:hover{
+          background-color:grey ;
+          color: white;
+          border-radius: 20px;
+      }
+    
+    .sidepart{
+        background-image: url("images/ANKOLEB.jpg");
+        width: 50vw;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    
+    
+    .sidepart img{
+        width: 30%;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    
+    .sidepart h2{
+        color: black;
+        font-size: 16px;
+        margin-left: 30%;
+    }
+    
+    .sidepart h3{
+        margin-left: 30%;
     }
 
-    .homebar a{
-        float: none;
-        display: block;
-        text-align: center;
-    }}
-
-@media (max-width: 480px){
-    .homebar a{
-        padding: 10px 12px;
+    .foodcategory{
+        margin: 10%;
+        margin-bottom: 0px;
     }
+
+    .foodcategory a{
+        color: aliceblue;
+        padding: 5px;
+        
+    }
+    
+    .mealsslist{
+        background-color: black;
+        height: 100vh;
+        width: 50vw;
+        margin-left: 50%;
+        margin-top: -170%;
+        overflow: auto;   
+    }
+    
+    
+    .meal1{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal1 img{
+        width: 10%;
+    }
+    
+    .meal2{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal2 img{
+        width: 10%;
+    }
+    
+    .meal3{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal3 img{
+        width: 10%;
+    }
+    
+    .meal4{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal4 img{
+        width: 10%;
+    }
+    
+    .meal5{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal5 img{
+        width: 10%;
+    }
+    
+    .meal6{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal6 img{
+        width: 10%;
+    }
+    
+    
+    .meal7{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal7 img{
+        width: 10%;
+    }
+    
+    
+    .meal8{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal8 img{
+        width: 10%;
+    }
+    
+    .meal9{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal9 img{
+        width: 10%;
+    }
+    
+    
+    .meal10{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal10 img{
+        width: 10%;
+    }
+    
+    
+    .meal11{
+        color: azure;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .meal11 img{
+        width: 10%;  
+    }
+
 }
-
 
 

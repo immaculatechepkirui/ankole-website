@@ -81,24 +81,87 @@ padding-top: 30px;
 }
 
 
-
-@media (max-width: 768px){
+@media only screen and (max-width:800px) and (min-width:0px){
+    body{
+        margin: 0%;
+        background-color: black;
+    }
+    
     .homebar{
-        width: 100%;
-        margin-left: 0;
-        bottom: 0;
-    }
-
+        background-color: black;
+        position: fixed;
+        bottom: 10%;
+        width: 93vw;
+        border-radius: 20px;
+        margin-left: 20px;   
+      
+      }
+    
     .homebar a{
-        float: none;
+        float: left; 
+        margin: 0 5px;
         display: block;
+        color:white;
         text-align: center;
-    }}
-
-@media (max-width: 480px){
-    .homebar a{
-        padding: 10px 12px;
+        padding: 14px 7px;
+        text-decoration: none;
     }
-}
+    
+    .homebar a:hover{
+        background-color:grey ;
+        color: white;
+        border-radius: 20px;
+      
+    }
+    
+    
+    .reservation input{
+      padding: 19px; 
+      width:35vw;
+      margin-right: 80px; 
+      background-color: black; 
+      color: white;
+      font-size: 16px;
+    }
+    
+    .reservation label{
+        color: blanchedalmond;
+        font-size: 15px;
+    }
+    
+    .reservation img{
+    width: 46vw;
+    height: 170vw;
+    }
+    
+    .reservationform{
+        width: 35vw;
+        height: 100vh; 
+        padding-left: 10px;
+    }
+    
+    form{
+    padding-top: 20px;
+    
+    }
+    
+    .reservationform button{
+        padding: 15px;
+        width: 46vw;
+        color:black;
+        font-size: 15px;
+        background-color: rgba(233, 182, 115);
+    }
+    
+    #Location{
+        padding: 14px;
+        width:46vw;
+        background-color: black;
+        color: antiquewhite;
+        font-size: 15px;
+       
+    }
+    
 
+}
 

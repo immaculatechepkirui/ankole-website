@@ -1,15 +1,18 @@
 body{
     margin: 0%;
-    background-color: black;
+    position: relative;
+    
 }
 
 .homebar{
     background-color: black;
     position: fixed;
     bottom: 10%;
-    width: 43%;
+    width: 24vw;
     border-radius: 20px;
     margin-left: 290px;
+    position: absolute;
+    padding: 10px 10px;
   
     
   
@@ -34,63 +37,82 @@ body{
 
 .restaurants{
     display: flex;
+  
  
 
 }
 .activekilimani{
-    position: absolute;
+    justify-content: center;
     top: 5cm;
+    display: flex;
     color:white;
     font-size: 16px;
     left: 70%;
 }
 
-.menupage img{
-    width: 100%;
-    height: 96vh;
+
+.menupage{
+    width: 50%;
+    margin: 0%;
+    background-image: url("images/ANKOLET.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
 }
 
-.kilimanilink img{
-    width: 100%;
-    height: 96vh;
+.kilimanilink{
+    width: 50vw;
+    height: 45.95vw;
+    background-image: url("images/ANKOLEE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .discover{
-    position: absolute;
     top: 4.5cm;
     color: white;
     font-size: 12px;
     left:70%;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
 }
 
 .kilimanitype p{
-    position: absolute;
-    top: 5.5cm;
     color:white;
     font-size: 8px;
     left: 70%;
+    display: flex;
+    justify-content: center;
+
 }
 
 .menupage h4{
-    position: absolute;
-    top: 5cm;
-    color:white;
     font-size: 16px;
     left: 10%;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
+
 }
 
 .activekitisuru{
-    position: absolute;
-    top: 7cm;
     color:white;
     font-size: 16px;
     left: 10%;
+    display: flex;
+    justify-content: center;
 }
 
 .menupage p{
-    position: absolute;
-    top: 8cm;
     color:white;
+    display: flex;
+    justify-content: center;
     font-size: 10px;
     left: 10%;
 }
@@ -98,8 +120,8 @@ body{
 .logo{
     width: 10%;
     position: absolute;
-    margin-left: 42%;
-    margin-top: 5%;
+    margin-left: 45%;
+    margin-top: 3%;
 }
 
 
@@ -117,43 +139,144 @@ body{
         text-align: center;
     }}
 
-@media (max-width: 480px){
-    .homebar a{
-        padding: 10px 12px;
-    }
-}
 
 
-@media(max-width: 768px){
-    .kilimanilink img{
-        height: auto;
-        width: 100%;
-        object-fit: cover;
-    }
 
-    .menupage img{
-        height: auto;
-        width: 100%;
-        object-fit: cover;
-    }
 
+
+
+
+
+@media only screen and (max-width:800px) and (min-width:0px) {
     body{
-        font-size: clamp(14px, 2vw, 22px);
+        margin: 0%;
+        
+        
+        
+    }
+    
+    .homebar{
+        background-color: black;
+        position: fixed;
+        bottom: 10%;
+        width: 93vw;
+        border-radius: 20px;
+        margin-left: 20px;
         position: absolute;
-        top: 10vh;
-        left: 5vw;
-        width: 80vw;
-        height: 60vh;
+      
+        
+      
+      }
+      
+      .homebar a{
+          float: left; 
+          margin: 0 5px;
+          display: block;
+          color:white;
+          text-align: center;
+          padding: 7px 7px;
+          text-decoration: none;
+      }
+      
+      .homebar a:hover{
+          background-color:grey ;
+          color: white;
+          border-radius: 20px;
+      }
+    
+    
+    .restaurants{
+        display: flex;
+      
+     
+    
     }
-}
-
-@media (max-width:480px){
-    .display{
-        height: auto;
-        padding: 10px;
+    .activekilimani{
+        justify-content: center;
+        top: 5cm;
+        display: flex;
+        color:white;
+        font-size: 16px;
+        left: 70%;
     }
-}
-
-@media (max-width:768px){
+    
+    
+    .menupage{
+        width: 50%;
+        margin: 0%;
+        background-image: url("images/ANKOLET.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    
+    }
+    
+    .kilimanilink{
+        width: 50vw;
+        height: 45.95vw;
+        background-image: url("images/ANKOLEE.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    .discover{
+        top: 4.5cm;
+        color: white;
+        font-size: 14px;
+        left:70%;
+        color: orange;
+        display: flex;
+        justify-content: center;
+        padding-top: 250px;
+    }
+    
+    .kilimanitype p{
+        color:white;
+        font-size: 12px;
+        left: 70%;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .menupage h4{
+        font-size: 16px;
+        left: 10%;
+        color: orange;
+        display: flex;
+        justify-content: center;
+        margin-top: 120%;
+    
+    }
+    
+    .activekitisuru{
+        color:white;
+        font-size: 16px;
+        left: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menupage p{
+        color:white;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        left: 10%;
+    }
+    
+    .logo{
+        width: 25vw;
+        position: absolute;
+        margin-left: 37%;
+        margin-top: 3%;
+    }
+    
+    
+    
+ 
     
 }

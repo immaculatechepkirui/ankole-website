@@ -6,7 +6,7 @@ body{
     background-color: black;
     position: fixed;
     bottom: 10%;
-    width: 50%;
+    width: 26vw;
     border-radius: 20px;
     margin-left: 290px;   
   
@@ -45,6 +45,8 @@ body{
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 8px;
+    border: solid;
+    border-color: azure;
 
 }
 
@@ -85,44 +87,101 @@ body{
       
         
 }
+
+
+
+
+
+@media only screen and (max-width:800px) and (min-width:0px){
+    body{
+        margin: 0%;
+    }
     
-
-@media (max-width: 768px){
     .homebar{
-        width: 100%;
-        margin-left: 0;
-        bottom: 0;
-    }
-
+        background-color: black;
+        position: fixed;
+        bottom: 10%;
+        width: 93vw;
+        border-radius: 20px;
+        margin-left: 10px;   
+      
+      }
+    
     .homebar a{
-        float: none;
+        float: left; 
+        margin: 0 5px;
         display: block;
+        color:white;
         text-align: center;
-    }}
-
-@media (max-width: 480px){
-    .homebar a{
-        padding: 10px 12px;
+        padding: 14px 7px;
+        text-decoration: none;
     }
-}
-
-@media(max-width: 768px){
-    .container{
-      width: 100%;
-      padding: 10px;
+    
+    .homebar a:hover{
+        background-color:grey ;
+        color: white;
+        border-radius: 20px;
+     
+    
     }
-
-    .menu{
-        flex-direction: column;
-        align-items: center;
+    
+      .contact_container{
+        background-image:url('images/ANKOLEJ.jpg') ;
+        background-size: cover;
+        width:102vw;
+        height:100vh;
+        background-position: center;
+        
     }
-}
-
-@media (max-width: 480px){
-    .button{
-         font-size: 14px;
-         padding: 8px 10px;
+    
+    
+    .locationage{
+        margin-left: 3px;
+        margin-top: 50px;
+        border: solid;
+        border-color: antiquewhite;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        border-radius: 8px;
+    
     }
-
+    
+    .locationage h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: antiquewhite;
+    }
+    
+    .locationage p{
+        font-size: 14px;
+        margin: 5px 0;
+        color: aliceblue;
+    }
+    
+    
+    .locationage a{
+        color: #ada893;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .locationage a:hover{
+        text-decoration: underline;
+    
+    }
+    
+    .contactpage{
+        display: flex;
+        gap: 2%;
+        padding: 2%;
+    }
+    
+    .logo{
+            width: 100px;
+            margin-left: 40%;
+            margin-top: 1%;
+          
+            
+    }
 
 }
